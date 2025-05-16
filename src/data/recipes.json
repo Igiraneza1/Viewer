@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Pancakes",
+    "slug": "pancakes",
+    "image": "pancake.jpg",
+    "ingredients": ["2 cups flour", "2 eggs", "1 cup milk"],
+    "steps": ["Mix ingredients", "Pour on skillet", "Cook until golden"]
+  },
+  {
+    "title": "Pizza",
+    "slug": "pizza",
+    "image": "pizza.jpg",
+    "ingredients": ["1 dough", "Tomato sauce", "Cheese"],
+    "steps": ["Prepare dough", "Add toppings", "Bake in oven"]
+  }
+]
