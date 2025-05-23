@@ -5,7 +5,7 @@ import path from 'path';
 import fs from 'fs';
 import { Recipe } from '../types/recipe';
 import { SignedIn, SignedOut, SignInButton, SignUpButton } from '@clerk/nextjs';
-import '../styles/globals.css';
+// import '../styles/globals.css';
 
 interface HomeProps {
   recipes: Recipe[];
@@ -16,8 +16,9 @@ export default function Home({ recipes }: HomeProps) {
     <div className="welcome px-4 py-12 bg-gray-200 min-h-screen">
       <SignedOut>
         <div
-          className="text-center min-h-screen flex flex-col justify-center items-center bg-cover bg-center px-4"
-          style={{ backgroundImage: "url('/images/background.jpg')" }}
+          className="text-center min-h-screen flex flex-col justify-center items-center bg-cover bg-center"
+          style={{ backgroundImage: "url('/images/background.jpg')", 
+            backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           <h1 className="text-4xl font-bold mb-6 text-white p-4 rounded">
             Welcome to Recipe Viewer!
