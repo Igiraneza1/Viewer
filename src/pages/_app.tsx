@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ClerkProvider>
       <SignedIn>
-        {/* Top bar with only User Profile button */}
+        
         <div className="flex justify-end items-center bg-white shadow px-6 py-4">
           <UserButton />
         </div>

@@ -1,98 +1,90 @@
 [
   {
     "id": 1,
-    "slug": "pancakes",
-    "title": "Pancakes",
-    "image": "/images/pancake.jpg",
-    "ingredients": ["2 cups flour", "2 eggs", "1 cup milk"],
-    "steps": ["Mix ingredients", "Pour on skillet", "Cook until golden"]
+    "slug": "fish-fry",
+    "title": "Fish Fry",
+    "image": "/images/fish_fry.jpeg",
+    "ingredients": ["500g fish fillets", "1 cup flour", "Salt", "Pepper", "Oil for frying"],
+    "steps": ["Season fish with salt and pepper", "Coat fish with flour", "Heat oil in pan", "Fry fish until golden and crispy"]
   },
   {
     "id": 2,
-    "slug": "pizza",
-    "title": "Pizza",
-    "image": "/images/pizza.jpg",
-    "ingredients": ["1 dough", "Tomato sauce", "Cheese"],
-    "steps": ["Prepare dough", "Add toppings", "Bake in oven"]
+    "slug": "grilled-meat",
+    "title": "Grilled Meat",
+    "image": "/images/grilled_meat.jpeg",
+    "ingredients": ["500g meat cuts", "2 tbsp olive oil", "Salt", "Black pepper", "Herbs"],
+    "steps": ["Marinate meat with oil, salt, pepper and herbs", "Preheat grill", "Grill meat until desired doneness"]
   },
   {
     "id": 3,
-    "slug": "spaghetti-bolognese",
-    "title": "Spaghetti Bolognese",
-    "image": "/images/spaghetti.jpg",
-    "ingredients": ["200g spaghetti", "100g ground beef", "1 cup tomato sauce", "1 onion"],
-    "steps": ["Boil spaghetti", "Cook beef with onions", "Add tomato sauce", "Mix with spaghetti"]
+    "slug": "spaghetti-carbonara",
+    "title": "Spaghetti Carbonara",
+    "image": "/images/spaghetti_carbonara.jpeg",
+    "ingredients": ["200g spaghetti", "100g pancetta", "2 eggs", "50g parmesan cheese", "Black pepper"],
+    "steps": ["Cook spaghetti", "Fry pancetta", "Beat eggs with cheese", "Mix everything while hot", "Serve immediately"]
   },
   {
     "id": 4,
-    "slug": "grilled-cheese-sandwich",
-    "title": "Grilled Cheese Sandwich",
-    "image": "/images/grilled_cheese.jpg",
-    "ingredients": ["2 slices of bread", "2 slices of cheese", "1 tbsp butter"],
-    "steps": ["Butter bread", "Place cheese between slices", "Grill until golden brown"]
+    "slug": "fruit-salad",
+    "title": "Fruit Salad",
+    "image": "/images/fruit_salad.jpeg",
+    "ingredients": ["1 apple", "1 banana", "1 orange", "1 cup grapes", "2 tbsp honey", "Lemon juice"],
+    "steps": ["Chop all fruits", "Mix honey and lemon juice", "Toss fruits with dressing", "Chill before serving"]
   },
   {
     "id": 5,
-    "slug": "caesar-salad",
-    "title": "Caesar Salad",
-    "image": "/images/caesar_salad.jpg",
-    "ingredients": ["Lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
-    "steps": ["Chop lettuce", "Add croutons and cheese", "Drizzle with dressing", "Toss and serve"]
+    "slug": "fried-rice",
+    "title": "Fried Rice",
+    "image": "/images/fried_rice.jpeg",
+    "ingredients": ["2 cups cooked rice", "1 egg", "Mixed vegetables", "Soy sauce", "Oil"],
+    "steps": ["Heat oil in pan", "Scramble egg", "Add vegetables and stir fry", "Add rice and soy sauce", "Cook for 5 minutes"]
   },
   {
     "id": 6,
-    "slug": "chocolate-chip-cookies",
-    "title": "Chocolate Chip Cookies",
-    "image": "/images/cookies.jpg",
-    "ingredients": ["2 cups flour", "1 cup sugar", "1 cup chocolate chips", "2 eggs", "1 tsp baking soda"],
-    "steps": ["Mix ingredients", "Scoop dough onto tray", "Bake for 10-12 minutes"]
+    "slug": "crispy-chips",
+    "title": "Crispy Chips",
+    "image": "/images/chips.jpeg",
+    "ingredients": ["4 potatoes", "Salt", "Oil for frying"],
+    "steps": ["Peel and slice potatoes", "Soak in water", "Dry slices", "Deep fry until golden", "Season with salt"]
   },
   {
     "id": 7,
-    "slug": "omelette",
-    "title": "Omelette",
-    "image": "/images/omelette.jpg",
-    "ingredients": ["3 eggs", "Salt", "Pepper", "Chopped vegetables", "Cheese"],
-    "steps": ["Beat eggs", "Add veggies and cheese", "Pour into pan", "Cook until firm"]
+    "slug": "scrambled-eggs",
+    "title": "Scrambled Eggs",
+    "image": "/images/scrambled_eggs.jpeg",
+    "ingredients": ["3 eggs", "Salt", "Pepper", "Butter"],
+    "steps": ["Beat eggs with salt and pepper", "Heat butter in pan", "Cook eggs while stirring gently until set"]
   },
   {
     "id": 8,
-    "slug": "fried-rice",
-    "title": "Fried Rice",
-    "image": "/images/fried_rice.jpg",
-    "ingredients": ["2 cups cooked rice", "1 egg", "Vegetables", "Soy sauce", "Oil"],
-    "steps": ["Fry vegetables", "Add egg and scramble", "Add rice and soy sauce", "Stir and cook"]
+    "slug": "pizza-margherita",
+    "title": "Pizza Margherita",
+    "image": "/images/pizza_margherita.jpg",
+    "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Fresh basil", "Olive oil"],
+    "steps": ["Roll dough", "Spread tomato sauce", "Add mozzarella", "Bake in oven", "Add basil and drizzle oil"]
   },
   {
     "id": 9,
-    "slug": "french-toast",
-    "title": "French Toast",
-    "image": "/images/french_toast.jpg",
-    "ingredients": ["2 slices of bread", "1 egg", "1/4 cup milk", "Cinnamon"],
-    "steps": ["Whisk egg, milk, and cinnamon", "Dip bread", "Cook on skillet until golden"]
+    "slug": "indian-spaghetti",
+    "title": "Indian Spaghetti",
+    "image": "/images/indian_spaghetti.jpeg",
+    "ingredients": ["200g spaghetti", "1 onion", "2 tomatoes", "Spices (cumin, turmeric, chili)", "Cilantro"],
+    "steps": ["Cook spaghetti", "Sauté onions and tomatoes with spices", "Mix spaghetti with sauce", "Garnish with cilantro"]
   },
   {
     "id": 10,
-    "slug": "beef-tacos",
-    "title": "Beef Tacos",
-    "image": "/images/tacos.jpg",
-    "ingredients": ["Taco shells", "Ground beef", "Lettuce", "Tomato", "Cheese"],
-    "steps": ["Cook beef", "Prepare toppings", "Fill shells", "Serve"]
+    "slug": "burger",
+    "title": "Burger",
+    "image": "/images/burger.jpeg",
+    "ingredients": ["Burger buns", "Ground beef patty", "Lettuce", "Tomato", "Cheese", "Sauce"],
+    "steps": ["Cook beef patty", "Toast buns", "Assemble burger with toppings", "Serve hot"]
   },
   {
     "id": 11,
     "slug": "chicken-curry",
     "title": "Chicken Curry",
-    "image": "/images/chicken_curry.jpg",
-    "ingredients": ["Chicken pieces", "Onion", "Garlic", "Curry powder", "Coconut milk"],
-    "steps": ["Sauté onion and garlic", "Add chicken", "Add curry and coconut milk", "Simmer until cooked"]
-  },
-  {
-    "id": 12,
-    "slug": "mashed-potatoes",
-    "title": "Mashed Potatoes",
-    "image": "/images/mashed_potatoes.jpg",
-    "ingredients": ["4 potatoes", "Butter", "Milk", "Salt"],
-    "steps": ["Boil potatoes", "Mash with butter and milk", "Add salt to taste"]
+    "image": "/images/chicken_curry.jpeg",
+    "ingredients": ["Chicken pieces", "Onion", "Garlic", "Ginger", "Curry powder", "Coconut milk"],
+    "steps": ["Sauté onion, garlic, and ginger", "Add chicken and brown", "Add curry powder and coconut milk", "Simmer until cooked"]
   }
 ]

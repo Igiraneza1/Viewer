@@ -13,31 +13,40 @@ interface HomeProps {
 
 export default function Home({ recipes }: HomeProps) {
   return (
-    <div className="px-4 py-12 bg-gray-200 min-h-screen">
-      {/* 👇 Show this when user is NOT signed in */}
+    <div className="welcome px-4 py-12 bg-gray-200 min-h-screen">
       <SignedOut>
-        <div className="text-center">
-          <h1 className="text-3xl font-bold mb-6 text-gray-800">Welcome!</h1>
-          <p className="mb-6 text-gray-600">Please sign in or sign up to view the recipes.</p>
-          <div className="flex justify-center gap-4">
-            <SignInButton mode="modal">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Sign In</button>
-            </SignInButton>
+        <div
+          className="text-center min-h-screen flex flex-col justify-center items-center bg-cover bg-center px-4"
+          style={{ backgroundImage: "url('/images/background.jpg')" }}
+        >
+          <h1 className="text-4xl font-bold mb-6 text-white p-4 rounded">
+            Welcome to Recipe Viewer!
+          </h1>
+          <p className="text-lg text-gray-600 mb-8 bg-gray-300 p-4 rounded max-w-md mx-auto">
+            Please{' '}
             <SignUpButton mode="modal">
-              <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Sign Up</button>
-            </SignUpButton>
-          </div>
+              <button className="bg-orange-600 text-white px-4 rounded hover:bg-orange-700">
+                Sign Up
+              </button>
+            </SignUpButton>{' '}
+            or{' '}
+            <SignInButton mode="modal">
+              <button className="bg-blue-500 text-white px-4 rounded hover:bg-blue-700">
+                Sign In
+              </button>
+            </SignInButton>{' '}
+            to explore our delicious recipes.
+          </p>
         </div>
       </SignedOut>
 
-      {/* 👇 Show this when user IS signed in */}
       <SignedIn>
         <h1 className="text-4xl font-extrabold mb-10 text-center text-gray-800 tracking-tight">
           Delicious Recipes
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {recipes.map((recipe) => (
-            <Link key={recipe.id} href={`/recipes/${recipe.slug}`} passHref>
+            <Link key={recipe.id} href={`/recipes/${recipe.slug}`}>
               <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 cursor-pointer">
                 <div className="relative w-full h-48">
                   <Image
