@@ -11,7 +11,7 @@ interface RecipeProps {
 
 export default function RecipeDetail({ recipe }: RecipeProps) {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10">
+    <div className=" px-4 py-10 bg-amber-600 w-full">
       <Link
         href="/"
         className="text-blue-600 hover:text-blue-800 underline transition duration-200 font-medium mb-6 inline-block"
@@ -34,7 +34,7 @@ export default function RecipeDetail({ recipe }: RecipeProps) {
         {recipe.title}
       </h1>
 
-      <div className="bg-gray-300 grid grid-cols-2 p-6 rounded-lg shadow-md space-y-8">
+      <div className=" w-1/2 ml-72 items-center justify-center bg-gray-300 grid grid-cols-2 p-6 rounded-lg shadow-md space-y-8">
         <div>
           <h2 className="text-2xl font-semibold text-gray-700 mb-3">
             Ingredients

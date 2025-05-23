@@ -13,9 +13,10 @@ interface HomeProps {
 
 export default function Home({ recipes }: HomeProps) {
   return (
-    <div className="welcome px-4 py-12 min-h-screen bg-amber-700">
+    <div className="welcome px-4 py-12 min-h-screen ">
+      
       <SignedOut>
-  <div className="text-center min-h-screen flex flex-col justify-center items-center">
+  <div className="text-center min-h-screen flex flex-col justify-center items-center bg-amber-600">
     <h1 className="text-4xl font-bold mb-6">Welcome to Recipe Viewer!</h1>
     <div className="flex gap-4">
       <SignInButton mode="modal">
@@ -32,6 +33,7 @@ export default function Home({ recipes }: HomeProps) {
   </div>
 </SignedOut>
 
+     <div className='p-10 bg-gray-200'>
       <SignedIn>
         <h1 className="text-4xl font-extrabold mb-10 text-center text-gray-800 tracking-tight">
           Delicious Recipes
@@ -49,8 +51,8 @@ export default function Home({ recipes }: HomeProps) {
                     className="w-full h-full object-cover transform transition-transform duration-300 hover:scale-105"
                   />
                 </div>
-                <div className="p-5">
-                  <h2 className="text-xl font-semibold text-gray-800 hover:text-blue-600 transition-colors">
+                <div className="m- text-center p-3 bg-orange-500">
+                  <h2 className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
                     {recipe.title}
                   </h2>
                 </div>
@@ -59,6 +61,7 @@ export default function Home({ recipes }: HomeProps) {
           ))}
         </div>
       </SignedIn>
+    </div>
     </div>
   );
 }
