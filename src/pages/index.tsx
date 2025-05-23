@@ -19,12 +19,12 @@ export default function Home({ recipes }: HomeProps) {
     <h1 className="text-4xl font-bold mb-6">Welcome to Recipe Viewer!</h1>
     <div className="flex gap-4">
       <SignInButton mode="modal">
-        <button className="px-4 py-2 rounded hover:bg-gray-100 border border-gray-300">
+        <button className="px-4 py-2 text-xl rounded hover:bg-gray-100 border border-gray-300">
           Sign in
         </button>
       </SignInButton>
       <SignUpButton mode="modal">
-        <button className="px-4 py-2 rounded bg-black text-white hover:bg-gray-800">
+        <button className="px-4 py-2 text-xl rounded bg-black text-white hover:bg-gray-800">
           Sign up
         </button>
       </SignUpButton>
