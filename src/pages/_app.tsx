@@ -3,6 +3,7 @@ import {
   SignedIn,
   UserButton
 } from '@clerk/nextjs';
+
 import type { AppProps } from 'next/app';
 import '@/styles/globals.css';
 
