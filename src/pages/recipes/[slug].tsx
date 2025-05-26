@@ -16,14 +16,19 @@ export default function RecipeDetail({ recipe }: RecipeProps) {
       <SignedOut>
         <div className="flex flex-col items-center justify-center min-h-screen bg-amber-600 text-white">
           <h1 className="text-4xl font-bold mb-6">Please Sign In to View Recipes details</h1>
-          <Link href="/" className="text-blue-200 hover:text-blue-400 underline">
-            ← Back to home
-          </Link>
+          <div className="flex gap-4">
+            <Link href="/sign-in" className="px-4 py-2 text-xl rounded hover:bg-gray-100 border border-gray-300">
+              Sign in
+            </Link>
+            <Link href="/sign-up" className="px-4 py-2 text-xl rounded bg-black text-white hover:bg-gray-800">
+              Sign up
+            </Link>
+          </div>
         </div>
       </SignedOut>
       <SignedIn>
-        <div className="flex flex-col items-center justify-center min-h-screen bg-amber-600 text-white">
-          <h1 className="text-4xl font-bold mb-6">Welcome to the Recipe Details Page</h1>
+        <div className="flex flex-col items-center justify-center p-5 bg-amber-600 text-white">
+          <h1 className="text-4xl font-bold">Welcome to the Recipe Details Page</h1>
         </div>
         <div className=" px-4 py-10 bg-amber-600 w-full">
           <Link
